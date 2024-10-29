@@ -1,0 +1,14 @@
+- 指南
+  - [基础操作](/zh-cn/getting-started)
+  - [提取文本 | OCR](/zh-cn/OCR)
+  - [常见问题](/zh-cn/FAQ)
+  - [故障排除](/zh-cn/Troubleshooting)
+- 高级
+- 专业版
+- 文档
+  - [技术](/zh-cn/development-technology)
+- 更多
+  - [官网](/zh-cn/translation)
+  - [下载](/zh-cn/download)
+  - [帮助翻译](/zh-cn/translation)
+  - [日志](/zh-cn/changelog)
