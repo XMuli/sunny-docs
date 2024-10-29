@@ -1,49 +1,19 @@
-# 介绍
+将图片里面的源语言文字，翻译为另一种目标语言文字的图片展示出来；仅支持云引擎翻译。
+> 对于 『图片翻译』(Image Translattion)功能，现已支持使用私人账号，可自行输入
 
-This is a normal page, which contains VuePress basics.
-
-## 简介
-
-You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.
-
-See [routing][] for more details.
-
-
-
-## 安装
-
-界面安装
-
-静默安装
-
-Every markdown file [will be rendered to HTML, then converted to a Vue SFC][content].
-
-VuePress support basic markdown syntax and [some extensions][synatex-extensions], you can also [use Vue features][vue-feature] in it.
-
-## 国际化（多语言）
-
-VuePress use a `.vuepress/config.js`(or .ts) file as [site configuration][config], you can use it to config your site.
-
-For [client side configuration][client-config], you can create `.vuepress/client.js`(or .ts).
-
-Meanwhile, you can also add configuration per page with [frontmatter][].
-
-
-
-
-## 图片翻译（Image Translattion）
+<!-- ## 在线图片翻译 -->
 
 位置：`Setting - Recogniton - Picture translation`
 
-当前一共支持的引擎： 腾讯云，百度云，有道离线 （ `Tencent Cloud`，`Baidu Cloud`，`Youdao Cloud`）
+当前一共支持的引擎： 腾讯云，百度云，有道云线 （ `Tencent Cloud`，`Baidu Cloud`，`Youdao Cloud`）
 
 <img src="https://fastly.jsdelivr.net/gh/XMuli/xmuliPic@pic/2024/202410201715434.png" width="60%"/>
 
 
 
-### 创建自己的 key：
+创建自己的 key：
 
-#### Tencent Cloud | 腾讯云
+## 腾讯云 | Tencent Cloud
 
 - 同上，参见 OCR - Tencent Cloud 的设置
 
@@ -67,10 +37,7 @@ Meanwhile, you can also add configuration per page with [frontmatter][].
   ```
 
   
-
-
-
-#### Baidu Cloud | 百度云
+## 百度云 | Baidu Cloud
 
 - 注册位置：参考上面，最后一步选择 `机器翻译`
 
@@ -109,7 +76,7 @@ Meanwhile, you can also add configuration per page with [frontmatter][].
 
 
 
-#### Youdao Cloud | 有道云
+## 有道云 | Youdao Cloud
 
 - 官网：https://ai.youdao.com
 
@@ -229,89 +196,3 @@ Meanwhile, you can also add configuration per page with [frontmatter][].
 
   
 
-
-
-
-
-## 文字提取 OCR
-
-
-
-# 疑难解答
-
-## Windows
-
-### Windows protected your PC
-
-此EXE 已通过 Microsoft Defender SmartScreen 的病毒检测，仍还需足够多的安装量积累时，在随着时间增加，积累的Microsoft信誉到达阈值，此窗口便会取消。
-
-若是文章对你有价值，亦可帮我积累Sunny的微软信誉，或者在Linux 商店的好评，甚至感谢🙇‍ ； Windows 用户推荐的下载
-
-
-
-
-
-# How to Enable Offline OCR
-
-XMuli edited this page last week · [3 revisions](https://github.com/XMuli/SunnyPages/wiki/7.-How-to-Enable-Offline-OCR/_history)
-
-当前离线版本 OCR 仅支持 Windows 64 bit 版本，分为 CPU 和 GPU 版本
-
-Offline Local | 离线本地
-
-- 无需要任何注册和 key 的输入
-- 全程断网离线本地运行和识别
-- 支持 CPU 和 GPU 模式（叉腰）：
-  - CPU 版本：通用性强，占用内存更少，对于单张图片解析快，批量图片耗时大（普通用户推荐）
-  - GPU 版本：仅支持 N 卡，占用内用多，但对于批量解析大量图片，耗时是 CPU 版本是 1/2 ~ 1/3 时间，很快（高级 N 卡推荐）
-- 仅支持 win 64 bit 系统；均支持单张图片和批量图片识别解析，直接拖曳到窗口即可。
-
-一种简单的下载方式：下载带有`_offline_ocr_cpu` `_offline_ocr_gpu` 字样的离线包即可。如：
-
-- [sunny_setup_2.3.0_x64_offline_ocr_cpu.exe](https://github.com/XMuli/SunnyPages/releases/download/v2.3/sunny_setup_2.3.0_x64_offline_ocr_cpu.exe)
-- [sunny_setup_2.3.0_x64_offline_ocr_gpu.exe](https://github.com/XMuli/SunnyPages/releases/download/v2.3/sunny_setup_2.3.0_x64_offline_ocr_gpu.exe)
-- [sunny_protable_2.3.0_x64_offline_ocr_cpu.zip](https://github.com/XMuli/SunnyPages/releases/download/v2.3/sunny_protable_2.3.0_x64_offline_ocr_cpu.zip)
-- [sunny_protable_2.3.0_x64_offline_ocr_gpu.zip](https://github.com/XMuli/SunnyPages/releases/download/v2.3/sunny_protable_2.3.0_x64_offline_ocr_gpu.zip)
-
-
-
-# Error Code | 错误码返回
-
-
-
-> 翻译功能 -> 和网络有关，或者输入自己的 YouDao API Token 看图识别功能 -> 和网络有关，或者输入自己的 BaiDu APIToken
-
-可能原因：
-
-- PROXY 不正确，请尝试切换节点
-- API Token 内置作者账号的费用透支了，需要充值
-- API Token 使用私人账号的也没钱了，需要自行购买额度
-
-
-
-
-
-## MacOS
-
-### MacOS 无法截屏，没有权限
-
-Here are common configuration controlling layout of `@vuepress/theme-default`:
-
-- [navbar][]
-- [sidebar][]
-
-Check [default theme docs][default-theme] for full reference.
-
-You can [add extra style][style] with `.vuepress/styles/index.scss` file.
-
-[routing]: https://vuejs.press/guide/page.html#routing
-[content]: https://vuejs.press/guide/page.html#content
-[synatex-extensions]: https://vuejs.press/guide/markdown.html#syntax-extensions
-[vue-feature]: https://vuejs.press/guide/markdown.html#using-vue-in-markdown
-[config]: https://vuejs.press/guide/configuration.html#client-config-file
-[client-config]: https://vuejs.press/guide/configuration.html#client-config-file
-[frontmatter]: https://vuejs.press/guide/page.html#frontmatter
-[navbar]: https://vuejs.press/reference/default-theme/config.html#navbar
-[sidebar]: https://vuejs.press/reference/default-theme/config.html#sidebar
-[default-theme]: https://vuejs.press/reference/default-theme/
-[style]: https://vuejs.press/reference/default-theme/styles.html#style-file

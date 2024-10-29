@@ -1,14 +1,19 @@
 - 指南
   - [基础操作](/zh-cn/getting-started)
-  - [提取文本 | OCR](/zh-cn/OCR)
-  - [常见问题](/zh-cn/FAQ)
-  - [故障排除](/zh-cn/Troubleshooting)
-- 高级
-- 专业版
+  - [常见问题](/zh-cn/faq)
+  - [故障排除](/zh-cn/troubleshooting)
+- 进阶功能
+  - [提取文字](/zh-cn/extract-text-ocr)
+  - [图片翻译](/zh-cn/image-translation)
 - 文档
-  - [技术](/zh-cn/development-technology)
-- 更多
-  - [官网](/zh-cn/translation)
-  - [下载](/zh-cn/download)
+  - [平台兼容](/zh-cn/support-platform)
+  - [技术分享](/zh-cn/development-technology)
+- 贡献
   - [帮助翻译](/zh-cn/translation)
+  - [鸣谢](/zh-cn/acknowledgement)
+- 更多
+  - [官网](https://sunny.xmuli.tech)
+  - [下载](https://github.com/XMuli/SunnyPages/releases)
   - [日志](/zh-cn/changelog)
+  - [捐助](/zh-cn/donate)
+

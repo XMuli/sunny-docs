@@ -1,7 +1,5 @@
 - FAQ.md
 
-?> TODO，待补充
-
 
 ```html
 <p>This is a paragraph</p>
