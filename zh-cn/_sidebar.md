@@ -12,8 +12,7 @@
   - [帮助翻译](/zh-cn/translation)
   - [鸣谢](/zh-cn/acknowledgement)
 - 更多
-  - [官网](https://sunny.xmuli.tech)
-  - [下载](https://github.com/XMuli/SunnyPages/releases)
+  - [官网&下载](/zh-cn/office-site)
   - [日志](/zh-cn/changelog)
   - [捐助](/zh-cn/donate)
 
